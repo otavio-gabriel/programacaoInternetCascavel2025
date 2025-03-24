@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    padding: 50px;
+}
+
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    & .info-container{
+        padding-right: 100px;
+    }
+}
